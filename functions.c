@@ -4,13 +4,13 @@
 
 /**
  * print_char - Prints a char
- * @types: List a of arguments
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
- * @width: Width
+ * @types: List a of the arguments
+ * @buffer: Buffer array to handle printing
+ * @flags:  Calculates the active flags.
+ * @width: Width lol 
  * @precision: Precision specification
  * @size: Size specifier
- * Return: Number of chars printed
+ * Return: Number of characters printed
  */
 int print_char(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
@@ -144,13 +144,13 @@ int print_int(va_list types, char buffer[],
 /************************* PRINT BINARY *************************/
 /**
  * print_binary - Prints an unsigned number
- * @types: Lista of arguments
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
+ * @types: List a of tha arguments
+ * @buffer: Buffer array to handle the printings
+ * @flags:  Calculates da active flags
  * @width: get width.
  * @precision: Precision specification
  * @size: Size specifier
- * Return: Numbers of char printed.
+ * Return: Numbers of characters printed.
  */
 int print_binary(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
